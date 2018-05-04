@@ -18,8 +18,28 @@ def wiki_api(keyword, start, end, agent = 'user'):
 
 
 # TEST
-keyword = 'Burger King'
+print('-------------------------------------------')
+keyword = 'Subway (restaurant)'
+print(keyword)
 print(wiki_api(keyword = keyword, start = '20180401', end = '20180501'))
+print('-------------------------------------------')
+print('\n')
+
+print('-------------------------------------------')
+keyword = 'Subway'
+print(keyword)
+print(wiki_api(keyword = keyword, start = '20180401', end = '20180501'))
+print('-------------------------------------------')
+print('\n')
+
+print('-------------------------------------------')
+keyword = 'subway'
+print(keyword)
+print(wiki_api(keyword = keyword, start = '20180401', end = '20180501'))
+print('-------------------------------------------')
+print('\n')
+
+
 #print(wiki_api(keyword = keyword, start = '20180401', end = '20180501', agent = 'all-agents'))
 
 
